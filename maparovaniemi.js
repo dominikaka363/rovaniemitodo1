@@ -14,14 +14,14 @@ var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // bounds
-//var bounds = L.latLngBounds(
-//  [66.3675, 25.1635],
-//  [66.7575, 26.3175]
-//);
+var bounds = L.latLngBounds(
+  [66.3675, 25.1635],
+  [66.7575, 26.3175]
+);
 
 // blokada przesuwania mapy
-//map.setMaxBounds(bounds);
-//map.options.maxBoundsViscosity = 1.0;
+map.setMaxBounds(bounds);
+map.options.maxBoundsViscosity = 1.0;
 
 
 
