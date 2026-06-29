@@ -1,0 +1,64 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT (Fraunces) */
+body {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+
+/* HEADER */
+.header {
+    height: 70px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 22px;
+}
+
+
+h1 {
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.autor {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
+/* 📱 Telefon */
+@media (max-width: 600px) {
+    .autor {
+        position: static;       
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 11px;
+    }
+}
+
+
+#map { height: 180px; }
+
